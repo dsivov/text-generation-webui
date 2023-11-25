@@ -49,6 +49,9 @@ def state_modifier(state):
     Modifies the state variable, which is a dictionary containing the input
     values in the UI like sliders and checkboxes.
     """
+    #print("===================================================")
+    #print(state)
+    #print("===================================================")
     return state
 
 def chat_input_modifier(text, visible_text, state):

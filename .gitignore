@@ -19,7 +19,6 @@
 /img_me*
 /models/config-user.yaml
 /notification.mp3
-/settings*.json
 /settings*.yaml
 
 .chroma

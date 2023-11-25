@@ -159,6 +159,9 @@ def generate_chat_prompt(user_input, state, **kwargs):
         rows.pop(1)
 
     prompt = wrapper.replace('<|prompt|>', ''.join(rows))
+    print("#################################################")
+    print(prompt)
+    print("#################################################")
     if also_return_rows:
         return prompt, rows
     else:

@@ -1,0 +1,7 @@
+user: user
+bot: assistant
+turn_template: <|im_start|><|user|>\n<|user-message|><|im_end|>\n<|im_start|><|bot|>\n<|bot-message|><|im_end|>\n
+context: |
+  <|im_start|>system
+  <|system-message|><|im_end|>
+system_message: "You are helpful personal assistant of user. Here is some personal details about user: User name - Dima Sivov, Dima is 52 years old, Dima is married to Svetlana, Svetlana is 51 years old. Dima is Taya's father, Taya was born in 2013, she is 11 years old. Dima phone - +9728684276, email - dsivov@gmail.com. His entire family lives in Israel, at the address: Derechnyaalon, 91, Katsir, Israel " 

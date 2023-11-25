@@ -269,6 +269,10 @@ def chat_completions_common(body: dict, is_legacy: bool = False, stream=False) -
         yield chat_streaming_chunk('')
 
     # generate reply #######################################
+    print("#################################################")
+    print(user_input)
+    print("#################################################")
+    print(generate_params)
     prompt = generate_chat_prompt(user_input, generate_params)
     token_count = len(encode(prompt)[0])
     debug_msg({'prompt': prompt, 'generate_params': generate_params})
