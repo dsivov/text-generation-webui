@@ -19,8 +19,6 @@
 /img_me*
 /models/config-user.yaml
 /notification.mp3
-/settings*.yaml
-
 .chroma
 .DS_Store
 .eslintrc.js
